@@ -20,7 +20,7 @@ public class MyStack<k> {
 	}
 
 	public void printStack() {
-		myLinkedList.printStack();
+		myLinkedList.printNodes();
 	}
 
 	/**

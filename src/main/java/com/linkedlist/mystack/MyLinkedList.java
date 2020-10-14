@@ -48,7 +48,7 @@ public class MyLinkedList<K> {
 		return true;
 	}
 
-	public void printStack() {
+	public void printNodes() {
 		StringBuffer myNodes = new StringBuffer();
 		INode tempNode = head;
 		while (tempNode.getNext() != null) {
