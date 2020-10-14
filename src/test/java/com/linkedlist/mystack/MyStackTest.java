@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 class MyStackTest {
 
-	
 	@Test
 	public void whenPushed_shouldReturn_true() {
 		MyNode<Integer> first = new MyNode<Integer>(70);
