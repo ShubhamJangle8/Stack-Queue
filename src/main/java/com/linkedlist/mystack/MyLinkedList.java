@@ -1,8 +1,8 @@
 package com.linkedlist.mystack;
 
 public class MyLinkedList<K> {
-	private INode head;
-	private INode tail;
+	public INode head;
+	public INode tail;
 
 	public INode getHead() {
 		return head;
@@ -69,8 +69,10 @@ public class MyLinkedList<K> {
 		newNode.setNext(tempNode);
 	}
 
-	public void pop() {
-		this.head = this.head.getNext();
+	public INode<K> pop() {
+		INode<K> poppedNode = head;
+		head = head.getNext();
+		return poppedNode;
 	}
 
 	public INode popLast() {
